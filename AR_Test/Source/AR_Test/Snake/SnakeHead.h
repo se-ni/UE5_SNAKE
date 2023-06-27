@@ -1,18 +1,12 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
 #include "CoreMinimal.h"
 #include "SnakePart.h"
 #include "SnakeHead.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class AR_TEST_API ASnakeHead : public ASnakePart
 {
 	GENERATED_BODY()
+
 public:
 	// Sets default values for this actor's properties
 	ASnakeHead();
@@ -32,6 +26,7 @@ public:
 	// 이 UFUNCTION 언리얼이 인식하게 해준것 뿐이고
 	// 이제부터 이 함수가 어떻게 쓰일건지를 () 넣어줘야 합니다.
 	//void Move();
+
 	UFUNCTION(BlueprintCallable)
 		void LeftAction();
 
