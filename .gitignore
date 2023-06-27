@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/AR_Test/Intermediate
+/AR_Test/Saved
+/AR_Test/Binaries/Win64
