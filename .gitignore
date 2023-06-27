@@ -75,3 +75,4 @@ DerivedDataCache/*
 /AR_Test/Intermediate
 /AR_Test/Saved
 /AR_Test/Binaries/Win64
+/AR_Test/Platforms/HoloLens/Config
