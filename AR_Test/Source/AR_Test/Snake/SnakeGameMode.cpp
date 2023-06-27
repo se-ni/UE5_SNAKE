@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "SnakeGameMode.h"
 #include "Kismet/GameplayStatics.h"
 #include "SnakePart.h"
@@ -298,4 +295,3 @@ void ASnakeGameMode::CurBodyReset()
 {
 	CurBody = nullptr;
 }
-
