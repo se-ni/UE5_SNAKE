@@ -68,10 +68,15 @@ void ASnakeHead::LeftAction()
 			LastPart->PrevPartPos = PrevPartPos;
 			LastPart->NextPart = Body;
 			Body->PrevPart = LastPart;
+			if (LastPart->GetActorLocation() == GetActorLocation())
+			{
+				UE_LOG(LogTemp, Error, TEXT("Game Over")); // game over
+			}
 			// Body 파트를 추가한 후에 호출해야 하는 함수
 			GetSnakeGameMode()->CurBodyReset();
 		}
 	}
+
 }
 
 void ASnakeHead::RightAction()
